@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Guru</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a href="/" title="Лучшие рестораны мира рядом" class="logo">
+                    <img src="./img/icons/logo.svg" alt="Restaurant Guru" class="logo__image">
+                </a>
+                <form action="/" class="header__form">
+                    <div class="header__search">
+                        <span class="header__form-label">Найти:</span>
+                        <input type="text" name="restaurant" placeholder="Рестораны" value="Рестораны"
+                            autocomplete="off">
+                    </div>
+                    <div class="header__city">
+                        <span class="header__form-label">Где:</span>
+                        <input type="text" name="city" placeholder="Москва" value="Москва" autocomplete="off">
+                    </div>
+                    <button class="header__form-btn" type="submit"></button>
+                </form>
+                <div class="header-language">
+                    <div class="header-language__active" id="ru">Russian</div>
+                    <div class="header-language__dropdown">
+                        <button class="close"></button>
+                        <ul class="header-language__list" id="language-list">
+                            <li class="header-language__item">
+                                <a class="header-language__link" href="#!" id="en">English</a>
+                            </li>
+                            <li class="header-language__item">
+                                <a class="header-language__link" href="#!" id="es">Espanol</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <div class="breadcrumbs">
+        <div class="container">
+            <ul class="breadcrumbs__list wow fadeInRight">
+                <li class="breadcrumbs__item"><a href="#!">Главная</a></li>
+                <li class="breadcrumbs__item"><a href="#!">Россия</a></li>
+                <li class="breadcrumbs__item"><a href="#!">Москва</a></li>
+                <li class="breadcrumbs__item">Рестораны</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="restaurants">
+        <div class="container">
+            <div class="restaurants-header wow slideInUp">
+                <h1>
+                    <a href="#!" class="restaurants-header__title">Рестораны Москвы</a>
+                </h1>
+                <a href="#!" class="restaurants-header__link">Все рестораны</a>
+            </div>
+            <div class="restaurants-slider wow fadeIn">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide restaurants-slide">
+                            <a href="#!" class="restaurants-slide__photo">
+                                <div class="restaurants-slide__schedule">Открыто до <span>00:00</span></div>
+                                <img src="./img/restaurant.jpg" alt="Апшерон">
+                            </a>
+                            <div class="restaurants-slide__content">
+                                <div class="restaurants-slide__left">
+                                    <a class="restaurants-slide__title" href="#!">Апшерон</a>
+                                    <div class="restaurants-slide__number">
+                                        #4 ресторан в г. Подольск
+                                    </div>
+                                    <div class="restaurants-slide__menu">
+                                        Европейская, Итальянская
+                                    </div>
+                                    <div class="restaurants-slide__cost">
+                                        <div class="restaurants-slide__currency">
+                                            <span>₽</span><span>₽</span>₽₽
+                                        </div>
+                                        <div class="restaurants-slide__cost-text">Средний чек: 1200₽</div>
+                                    </div>
+                                </div>
+                                <div class="restaurants-slide__right">
+                                    <div class="restaurants-slide__rating">4.2<span>(842)</span></div>
+                                    <div class="restaurants-slide__route">12 мин</div>
+                                    <div class="restaurants-slide__distance">6,2 км</div>
+                                    <div class="restaurants-slide__currency restaurants-slide__currency-mobile">
+                                        <span>₽</span><span>₽</span>₽₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide restaurants-slide">
+                            <a href="#!" class="restaurants-slide__photo">
+                                <div class="restaurants-slide__schedule">Открыто до <span>00:00</span></div>
+                                <img src="./img/restaurant.jpg" alt="Апшерон">
+                            </a>
+                            <div class="restaurants-slide__content">
+                                <div class="restaurants-slide__left">
+                                    <a class="restaurants-slide__title" href="#!">Апшерон</a>
+                                    <div class="restaurants-slide__number">
+                                        #4 ресторан в г. Подольск
+                                    </div>
+                                    <div class="restaurants-slide__menu">
+                                        Европейская, Итальянская
+                                    </div>
+                                    <div class="restaurants-slide__cost">
+                                        <div class="restaurants-slide__currency">
+                                            <span>₽</span><span>₽</span>₽₽
+                                        </div>
+                                        <div class="restaurants-slide__cost-text">Средний чек: 1200₽</div>
+                                    </div>
+                                </div>
+                                <div class="restaurants-slide__right">
+                                    <div class="restaurants-slide__rating">4.2<span>(842)</span></div>
+                                    <div class="restaurants-slide__route">12 мин</div>
+                                    <div class="restaurants-slide__distance">6,2 км</div>
+                                    <div class="restaurants-slide__currency restaurants-slide__currency-mobile">
+                                        <span>₽</span><span>₽</span>₽₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide restaurants-slide">
+                            <a href="#!" class="restaurants-slide__photo">
+                                <div class="restaurants-slide__schedule">Открыто до <span>00:00</span></div>
+                                <img src="./img/restaurant.jpg" alt="Апшерон">
+                            </a>
+                            <div class="restaurants-slide__content">
+                                <div class="restaurants-slide__left">
+                                    <a class="restaurants-slide__title" href="#!">Апшерон</a>
+                                    <div class="restaurants-slide__number">
+                                        #4 ресторан в г. Подольск
+                                    </div>
+                                    <div class="restaurants-slide__menu">
+                                        Европейская, Итальянская
+                                    </div>
+                                    <div class="restaurants-slide__cost">
+                                        <div class="restaurants-slide__currency">
+                                            <span>₽</span><span>₽</span>₽₽
+                                        </div>
+                                        <div class="restaurants-slide__cost-text">Средний чек: 1200₽</div>
+                                    </div>
+                                </div>
+                                <div class="restaurants-slide__right">
+                                    <div class="restaurants-slide__rating">4.2<span>(842)</span></div>
+                                    <div class="restaurants-slide__route">12 мин</div>
+                                    <div class="restaurants-slide__distance">6,2 км</div>
+                                    <div class="restaurants-slide__currency restaurants-slide__currency-mobile">
+                                        <span>₽</span><span>₽</span>₽₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide restaurants-slide">
+                            <a href="#!" class="restaurants-slide__photo">
+                                <div class="restaurants-slide__schedule">Открыто до <span>00:00</span></div>
+                                <img src="./img/restaurant.jpg" alt="Апшерон">
+                            </a>
+                            <div class="restaurants-slide__content">
+                                <div class="restaurants-slide__left">
+                                    <a class="restaurants-slide__title" href="#!">Апшерон</a>
+                                    <div class="restaurants-slide__number">
+                                        #4 ресторан в г. Подольск
+                                    </div>
+                                    <div class="restaurants-slide__menu">
+                                        Европейская, Итальянская
+                                    </div>
+                                    <div class="restaurants-slide__cost">
+                                        <div class="restaurants-slide__currency">
+                                            <span>₽</span><span>₽</span>₽₽
+                                        </div>
+                                        <div class="restaurants-slide__cost-text">Средний чек: 1200₽</div>
+                                    </div>
+                                </div>
+                                <div class="restaurants-slide__right">
+                                    <div class="restaurants-slide__rating">4.2<span>(842)</span></div>
+                                    <div class="restaurants-slide__route">12 мин</div>
+                                    <div class="restaurants-slide__distance">6,2 км</div>
+                                    <div class="restaurants-slide__currency restaurants-slide__currency-mobile">
+                                        <span>₽</span><span>₽</span>₽₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide restaurants-slide">
+                            <a href="#!" class="restaurants-slide__photo">
+                                <div class="restaurants-slide__schedule">Открыто до <span>00:00</span></div>
+                                <img src="./img/restaurant.jpg" alt="Апшерон">
+                            </a>
+                            <div class="restaurants-slide__content">
+                                <div class="restaurants-slide__left">
+                                    <a class="restaurants-slide__title" href="#!">Апшерон</a>
+                                    <div class="restaurants-slide__number">
+                                        #4 ресторан в г. Подольск
+                                    </div>
+                                    <div class="restaurants-slide__menu">
+                                        Европейская, Итальянская
+                                    </div>
+                                    <div class="restaurants-slide__cost">
+                                        <div class="restaurants-slide__currency">
+                                            <span>₽</span><span>₽</span>₽₽
+                                        </div>
+                                        <div class="restaurants-slide__cost-text">Средний чек: 1200₽</div>
+                                    </div>
+                                </div>
+                                <div class="restaurants-slide__right">
+                                    <div class="restaurants-slide__rating">4.2<span>(842)</span></div>
+                                    <div class="restaurants-slide__route">12 мин</div>
+                                    <div class="restaurants-slide__distance">6,2 км</div>
+                                    <div class="restaurants-slide__currency restaurants-slide__currency-mobile">
+                                        <span>₽</span><span>₽</span>₽₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide restaurants-slide">
+                            <a href="#!" class="restaurants-slide__photo">
+                                <div class="restaurants-slide__schedule">Открыто до <span>00:00</span></div>
+                                <img src="./img/restaurant.jpg" alt="Апшерон">
+                            </a>
+                            <div class="restaurants-slide__content">
+                                <div class="restaurants-slide__left">
+                                    <a class="restaurants-slide__title" href="#!">Апшерон</a>
+                                    <div class="restaurants-slide__number">
+                                        #4 ресторан в г. Подольск
+                                    </div>
+                                    <div class="restaurants-slide__menu">
+                                        Европейская, Итальянская
+                                    </div>
+                                    <div class="restaurants-slide__cost">
+                                        <div class="restaurants-slide__currency">
+                                            <span>₽</span><span>₽</span>₽₽
+                                        </div>
+                                        <div class="restaurants-slide__cost-text">Средний чек: 1200₽</div>
+                                    </div>
+                                </div>
+                                <div class="restaurants-slide__right">
+                                    <div class="restaurants-slide__rating">4.2<span>(842)</span></div>
+                                    <div class="restaurants-slide__route">12 мин</div>
+                                    <div class="restaurants-slide__distance">6,2 км</div>
+                                    <div class="restaurants-slide__currency restaurants-slide__currency-mobile">
+                                        <span>₽</span><span>₽</span>₽₽
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
